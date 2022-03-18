@@ -1,0 +1,12 @@
+{
+    "files.autoSave": "afterDelay",
+    "liveSassCompile.settings.autoprefix": [],
+    "liveSassCompile.settings.formats": [
+        {
+            "format": "expanded", //"compressed", deixa em uma só linha
+            "extensionName": ".css",
+            "savePath": "/assets/css/"
+        }
+    ],
+    "workbench.tree.indent": 15
+}
