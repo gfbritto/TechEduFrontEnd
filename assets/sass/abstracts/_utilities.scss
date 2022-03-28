@@ -22,8 +22,20 @@
     }
 }
 
-@mixin alignFlex{
+@mixin alignFlex {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.background-default {
+    background-color: $background-default;
+}
+
+.background-primary {
+    background-color: $color-one;
+}
+
+.text-first {
+    color: $color-one;
 }
