@@ -10,3 +10,17 @@
     height: 100%;
     backdrop-filter: blur(10px);
 }
+
+.background-default {
+    @include max(576){
+        background: url(../../assets/img/booksBackground2.jpg) no-repeat center;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        position: relative;
+        top: 0px;
+        right: 0px;
+        width: 100%;
+        height: 100%;
+    }
+}
