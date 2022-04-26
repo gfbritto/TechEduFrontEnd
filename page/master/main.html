@@ -40,7 +40,7 @@
   </script>
 </head>
 
-<body class="">
+<body class="background-default">
   <nav class="navbar navbar-expand-lg navbar-dark background-primary">
     <div class="container-fluid fs-4">
       <a class="navbar-brand fs-4" href="/page/master/main.html">
@@ -48,12 +48,12 @@
           class="d-inline-block align-text-top">
         TechEdu
       </a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
-        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse d-flex justify-content-between" id="navbarNavDropdown">
-        <ul class="navbar-nav">
+      <div class="collapse navbar-collapse d-lg-flex justify-content-between" id="navbarNavDropdown">
+        <ul class="navbar-nav ">
           <li class="nav-item">
             <a class="nav-link active" aria-current="page" href="#">Home</a>
           </li>
@@ -74,7 +74,7 @@
           </li>
         </ul>
         <div class="navbar-nav">
-          <div class="nav-item dropdown dropstart">
+          <div class="nav-item dropdown dropstart w-auto">
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
               data-bs-toggle="dropdown" aria-expanded="false">
               <i class="bi bi-person-circle pe-3"></i>José Silva
@@ -101,17 +101,17 @@
     </div>
   </nav>
   <main>
-    <div class="container-fluid py-3">
-      <div class="row gy-3">
-        <div class="col-5 col-md-2">
-          <div class="card">
+    <div class="container my-5">
+      <div class="row gy-3 mb-5">
+        <div class="col-6 col-md-4">
+          <div class="card h-100">
             <div class="card-body">
               <div>Alunos matriculados</div>
               <div class="fs-4">157</div>
             </div>
           </div>
         </div>
-        <div class="col col-md-2 ">
+        <div class="col col-md ">
           <div class="card h-100">
             <div class="card-body">
               <div>Professores</div>
@@ -119,7 +119,7 @@
             </div>
           </div>
         </div>
-        <div class="col col-md-2">
+        <div class="col col-md">
           <div class="card h-100">
             <div class="card-body">
               <div>Turmas</div>
@@ -127,11 +127,13 @@
             </div>
           </div>
         </div>
-        <div class="col-12 col-md-6">
+      </div>
+      <div class="row gy-3">
+        <div class="col-12">
           <div class="card h-100">
             <div class="card-body">
               <div>Frequência dos alunos</div>
-              <div id="chart_div" class="w-100"></div>
+              <div id="chart_div" class="w-auto"></div>
             </div>
           </div>
         </div>

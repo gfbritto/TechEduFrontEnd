@@ -11,8 +11,8 @@
     backdrop-filter: blur(10px);
 }
 
-.background-default {
-    @include max(576){
+.background-login {
+    @include max(768){
         background: url(../../assets/img/booksBackground2.jpg) no-repeat center;
         background-repeat: no-repeat;
         background-position: center;
