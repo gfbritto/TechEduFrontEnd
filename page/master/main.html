@@ -48,59 +48,53 @@
           class="d-inline-block align-text-top">
         TechEdu
       </a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
-        aria-controls="offcanvasNavbar">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
-        <div class="offcanvas-header">
-          <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Offcanvas</h5>
-          <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-        </div>
-        <div class="offcanvas-body d-lg-flex justify-content-between">
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
-                data-bs-toggle="dropdown" aria-expanded="false">
-                Turmas
-              </a>
-              <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                <li><a class="dropdown-item" href="#">Turmas</a></li>
-                <li><a class="dropdown-item" href="#">Alunos</a></li>
-                <li><a class="dropdown-item" href="#">Notas</a></li>
-                <li><a class="dropdown-item" href="#">Horários</a></li>
-              </ul>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Professores</a>
-            </li>
-          </ul>
-          <div class="navbar-nav">
-            <div class="nav-item dropdown dropstart w-auto">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
-                data-bs-toggle="dropdown" aria-expanded="false">
-                <i class="bi bi-person-circle pe-3"></i>José Silva
-              </a>
-              <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                <div class="px-3 pb-3 d-flex align-items-center">
-                  <div class="pe-3">
-                    <i class="bi bi-person-circle fs-3"></i>
-                  </div>
-                  <div>
-                    <span class="fs-3">José silva</span>
-                    <span class="fs-5 text-muted">Jose.silva@outlook.com</span>
-                  </div>
+      <div class="collapse navbar-collapse d-lg-flex justify-content-between" id="navbarNavDropdown">
+        <ul class="navbar-nav ">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+              data-bs-toggle="dropdown" aria-expanded="false">
+              Turmas
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <li><a class="dropdown-item" href="#">Turmas</a></li>
+              <li><a class="dropdown-item" href="#">Alunos</a></li>
+              <li><a class="dropdown-item" href="#">Notas</a></li>
+              <li><a class="dropdown-item" href="#">Horários</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Professores</a>
+          </li>
+        </ul>
+        <div class="navbar-nav">
+          <div class="nav-item dropdown dropstart w-auto">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+              data-bs-toggle="dropdown" aria-expanded="false">
+              <i class="bi bi-person-circle pe-3"></i>José Silva
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <div class="px-3 pb-3 d-flex align-items-center">
+                <div class="pe-3">
+                  <i class="bi bi-person-circle fs-3"></i>
                 </div>
-                <li><a class="dropdown-item" href="#">Minha conta</a></li>
-                <li>
-                  <hr class="dropdown-divider">
-                </li>
-                <li><a class="dropdown-item" href="../../index.html">Sair</a></li>
-              </ul>
-            </div>
+                <div>
+                  <span class="fs-3">José silva</span>
+                  <span class="fs-5 text-muted">Jose.silva@outlook.com</span>
+                </div>
+              </div>
+              <li><a class="dropdown-item" href="#">Minha conta</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="../../index.html">Sair</a></li>
+            </ul>
           </div>
         </div>
       </div>
