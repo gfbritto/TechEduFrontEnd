@@ -40,111 +40,115 @@
   </script>
 </head>
 
-<body class="background-default">
-  <nav class="navbar navbar-expand-lg navbar-dark background-primary">
-    <div class="container-fluid fs-4">
-      <a class="navbar-brand fs-4" href="/page/master/main.html">
-        <img src="https://getbootstrap.com/docs/5.0/assets/brand/bootstrap-logo.svg" alt="" width="30" height="24"
-          class="d-inline-block align-text-top">
-        TechEdu
-      </a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
-        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse d-lg-flex justify-content-between" id="navbarNavDropdown">
-        <ul class="navbar-nav ">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Home</a>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
-              data-bs-toggle="dropdown" aria-expanded="false">
-              Turmas
-            </a>
-            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-              <li><a class="dropdown-item" href="#">Turmas</a></li>
-              <li><a class="dropdown-item" href="#">Alunos</a></li>
-              <li><a class="dropdown-item" href="#">Notas</a></li>
-              <li><a class="dropdown-item" href="#">Horários</a></li>
+<body class="background-default h-100">
+  <div class="min-vh-100 d-flex flex-column 
+  justify-content-between">
+    <div>
+      <nav class="navbar navbar-expand-lg navbar-dark background-primary">
+        <div class="container-fluid fs-4">
+          <a class="navbar-brand fs-4" href="/page/master/main.html">
+            <img src="https://getbootstrap.com/docs/5.0/assets/brand/bootstrap-logo.svg" alt="" width="30" height="24"
+              class="d-inline-block align-text-top">
+            TechEdu
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse d-lg-flex justify-content-between" id="navbarNavDropdown">
+            <ul class="navbar-nav ">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                  data-bs-toggle="dropdown" aria-expanded="false">
+                  Turmas
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <li><a class="dropdown-item" href="#">Turmas</a></li>
+                  <li><a class="dropdown-item" href="#">Alunos</a></li>
+                  <li><a class="dropdown-item" href="#">Notas</a></li>
+                  <li><a class="dropdown-item" href="#">Horários</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Professores</a>
+              </li>
             </ul>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Professores</a>
-          </li>
-        </ul>
-        <div class="navbar-nav">
-          <div class="nav-item dropdown dropstart w-auto">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
-              data-bs-toggle="dropdown" aria-expanded="false">
-              <i class="bi bi-person-circle pe-3"></i>José Silva
-            </a>
-            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-              <div class="px-3 pb-3 d-flex align-items-center">
-                <div class="pe-3">
-                  <i class="bi bi-person-circle fs-3"></i>
-                </div>
-                <div>
-                  <span class="fs-3">José silva</span>
-                  <span class="fs-5 text-muted">Jose.silva@outlook.com</span>
+            <div class="navbar-nav">
+              <div class="nav-item dropdown dropstart w-auto">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                  data-bs-toggle="dropdown" aria-expanded="false">
+                  <i class="bi bi-person-circle pe-3"></i>José Silva
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <div class="px-3 pb-3 d-flex align-items-center">
+                    <div class="pe-3">
+                      <i class="bi bi-person-circle fs-3"></i>
+                    </div>
+                    <div>
+                      <span class="fs-3">José silva</span>
+                      <span class="fs-5 text-muted">Jose.silva@outlook.com</span>
+                    </div>
+                  </div>
+                  <li><a class="dropdown-item" href="#">Minha conta</a></li>
+                  <li>
+                    <hr class="dropdown-divider">
+                  </li>
+                  <li><a class="dropdown-item" href="../../index.html">Sair</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <main class="">
+        <div class="container-fluid my-5">
+          <div class="row gy-3 mb-5">
+            <div class="col-12 col-sm-5 col-md">
+              <div class="card h-100">
+                <div class="card-body">
+                  <div>Alunos matriculados</div>
+                  <div class="fs-4">157</div>
                 </div>
               </div>
-              <li><a class="dropdown-item" href="#">Minha conta</a></li>
-              <li>
-                <hr class="dropdown-divider">
-              </li>
-              <li><a class="dropdown-item" href="../../index.html">Sair</a></li>
-            </ul>
+            </div>
+            <div class="col-12 col-sm col-md ">
+              <div class="card h-100">
+                <div class="card-body">
+                  <div>Professores</div>
+                  <div class="fs-4">10</div>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-sm col col-md">
+              <div class="card h-100">
+                <div class="card-body">
+                  <div>Turmas</div>
+                  <div class="fs-4">10</div>
+                </div>
+              </div>
+            </div>
           </div>
-        </div>
-      </div>
+          <div class="row gy-3 mb-5">
+            <div class="col-12">
+              <div class="card">
+                <div class="card-body overflow-auto">
+                  <div>Frequência dos alunos</div>
+                  <div id="chart_div" class="w-auto"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+      </main>
     </div>
-  </nav>
-  <main>
-    <div class="container my-5">
-      <div class="row gy-3 mb-5">
-        <div class="col-12 col-sm-5 col-md">
-          <div class="card h-100">
-            <div class="card-body">
-              <div>Alunos matriculados</div>
-              <div class="fs-4">157</div>
-            </div>
-          </div>
-        </div>
-        <div class="col-12 col-sm col-md ">
-          <div class="card h-100">
-            <div class="card-body">
-              <div>Professores</div>
-              <div class="fs-4">10</div>
-            </div>
-          </div>
-        </div>
-        <div class="col-12 col-sm col col-md">
-          <div class="card h-100">
-            <div class="card-body">
-              <div>Turmas</div>
-              <div class="fs-4">10</div>
-            </div>
-          </div>
-        </div>
+    <footer class="footer py-3 background-primary bottom-0 w-100">
+      <div class="container text-center">
+        <span class="text-light">Powered By: TechEdu Solutions 2022</span>
       </div>
-      <div class="row gy-3 mb-5">
-        <div class="col-12">
-          <div class="card">
-            <div class="card-body overflow-auto">
-              <div>Frequência dos alunos</div>
-              <div id="chart_div" class="w-auto"></div>
-            </div>
-          </div>
-        </div>
-      </div>
-  </main>
-  <footer class="footer py-3 background-primary position-relative w-100 bottom-0">
-    <div class="container text-center">
-      <span class="text-light">Powered By: TechEdu Solutions 2022</span>
-    </div>
-  </footer>
-
+    </footer>
+  </div>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
     crossorigin="anonymous"></script>
