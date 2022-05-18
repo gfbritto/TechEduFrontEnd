@@ -484,33 +484,6 @@ a {
   border: solid 1px #c0c0c0 !important;
 }
 
-.boxpai {
-  background-color: blue;
-  width: 40rem;
-  height: 40rem;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.boxpai .boxfilho1 {
-  background-color: red;
-  width: 20rem;
-  height: 40rem;
-}
-
-.boxpai .boxfilho2 {
-  background-color: green;
-  width: 20rem;
-  height: 40rem;
-}
-
-@media only screen and (max-width: 500px) {
-  .boxpai .boxfilho2 {
-    background-color: yellow;
-  }
-}
-
 .bg-main-image {
   background: url(../../assets/img/booksBackground2.jpg) no-repeat center;
   background-repeat: no-repeat;
