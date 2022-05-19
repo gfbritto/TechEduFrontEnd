@@ -5,6 +5,10 @@ $(document).ready(function(){
     })
 
     wrapperDistance()
+
+    function voltar() {
+        window.history.back();
+    }
 })
 
 // coloca padding em elementos sem wrapper para alinhar a grid
