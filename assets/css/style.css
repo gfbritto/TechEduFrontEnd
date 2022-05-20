@@ -493,6 +493,137 @@ a {
   border: solid 1px #c0c0c0 !important;
 }
 
+.altera__container {
+  background-color: #fff;
+  padding: 6rem 3rem;
+  margin: 6rem auto;
+  border-radius: 2rem;
+}
+
+.altera__heading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 3.6rem;
+  font-weight: 700;
+  color: #187CD9;
+  line-height: 4rem;
+  text-transform: uppercase;
+  margin-bottom: 3rem;
+}
+
+@media only screen and (max-width: 500px) {
+  .altera__heading {
+    text-align: center;
+    font-size: 3rem;
+  }
+}
+
+.altera .a-form__line {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 4rem;
+  margin-top: 6rem;
+}
+
+@media only screen and (max-width: 500px) {
+  .altera .a-form__line {
+    flex-direction: column;
+    margin-bottom: 2rem;
+  }
+}
+
+.altera .a-form__line--professor {
+  justify-content: center;
+}
+
+.altera .a-form__line .altera__box {
+  width: 48%;
+  display: flex;
+  align-items: center;
+}
+
+@media only screen and (max-width: 500px) {
+  .altera .a-form__line .altera__box {
+    width: 100%;
+    margin-bottom: 2.4rem;
+  }
+}
+
+.altera .a-form__line .altera__box label {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #fff;
+  background-color: #189FD9;
+  width: 12rem;
+  height: 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  text-transform: uppercase;
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+}
+
+.altera .a-form__line .altera__box select {
+  height: 4rem;
+  width: 100%;
+  padding: 0 1rem;
+  font-size: 2rem;
+  font-weight: bold;
+  color: #fff;
+  border-radius: 4px;
+  border: none;
+  background-color: #79C7FF;
+}
+
+.altera .a-form__inputs {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+@media only screen and (max-width: 500px) {
+  .altera .a-form__inputs {
+    flex-direction: column;
+  }
+}
+
+.altera .a-form__inputs .cadastro__box {
+  width: 48%;
+}
+
+@media only screen and (max-width: 500px) {
+  .altera .a-form__inputs .cadastro__box {
+    width: 100%;
+  }
+}
+
+.altera .a-form button {
+  width: 16rem;
+  margin: 2rem auto 0;
+  border-radius: 4rem;
+  font-size: 2.4rem;
+  font-weight: 700;
+  color: #fff;
+  background-color: #31EBB3;
+  border: none;
+  padding: 1rem;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media only screen and (max-width: 1200px) {
+  .altera .a-form button {
+    width: 20rem;
+    font-size: 2rem;
+  }
+}
+
 .cadastro__container {
   display: flex;
   justify-content: space-between;

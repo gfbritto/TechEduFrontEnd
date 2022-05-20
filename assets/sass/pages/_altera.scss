@@ -1,0 +1,115 @@
+.altera{
+    &__container {
+        background-color: #fff;
+        padding: 6rem 3rem;
+        margin: 6rem auto;
+        border-radius: 2rem;
+    }
+
+    &__heading {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 3.6rem;
+        font-weight: 700;
+        color: #187CD9;
+        line-height: 4rem;
+        text-transform: uppercase;
+        margin-bottom: 3rem;
+        @include max(500){
+            text-align: center;
+            font-size: 3rem;
+        }
+    }
+
+    .a-form{
+        &__line {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 4rem;
+            margin-top: 6rem;
+            @include max(500){
+                flex-direction: column;
+                margin-bottom: 2rem; 
+            }
+
+            &--professor{
+                justify-content: center;
+            }
+
+            .altera__box{
+                width: 48%;
+                display: flex;
+                align-items: center;
+                @include max(500){
+                    width: 100%;
+                    margin-bottom: 2.4rem;
+                }
+                label {
+                    font-size: 2rem;
+                    font-weight: bold;
+                    color: #fff;
+                    background-color: #189FD9;
+                    width: 12rem;
+                    height: 4rem;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    padding: 1rem;
+                    text-transform: uppercase;
+                    border-top-left-radius: 4px;
+                    border-bottom-left-radius: 4px;
+                }
+                
+                select {
+                    height: 4rem;
+                    width: 100%;
+                    padding: 0 1rem;
+                    font-size: 2rem;
+                    font-weight: bold;
+                    color: #fff;
+                    border-radius: 4px;
+                    border: none;
+                    background-color: #79C7FF;
+                }
+            }
+        }
+        
+        &__inputs {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            @include max(500){
+                flex-direction: column;
+            }
+            .cadastro__box {
+                width: 48%;
+                @include max(500){
+                    width: 100%;
+                }
+            }
+
+        }
+        button{
+            width: 16rem;
+            margin: 2rem auto 0;
+            border-radius: 4rem;
+            font-size: 2.4rem;
+            font-weight: 700;
+            color: #fff;
+            background-color: #31EBB3;
+            border: none;
+            padding: 1rem;
+            text-transform: uppercase;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            @include max(1200){
+                width: 20rem;
+                font-size: 2rem;
+            }
+        }
+    }
+    
+}
