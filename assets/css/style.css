@@ -86,6 +86,14 @@
   color: #189fd9;
 }
 
+.text-light {
+  font-size: 2rem;
+}
+
+.container-fluid a {
+  font-size: 2rem !important;
+}
+
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 /* Document
    ========================================================================== */
@@ -467,6 +475,7 @@ a {
 .wrapper {
   margin: 0 auto;
   width: 80%;
+  max-width: 109rem;
 }
 
 .default-button {
@@ -484,31 +493,333 @@ a {
   border: solid 1px #c0c0c0 !important;
 }
 
-.boxpai {
-  background-color: blue;
-  width: 40rem;
-  height: 40rem;
+.altera__container {
+  background-color: #fff;
+  padding: 6rem 3rem;
+  margin: 6rem auto;
+  border-radius: 2rem;
+}
+
+.altera__heading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 3.6rem;
+  font-weight: 700;
+  color: #187CD9;
+  line-height: 4rem;
+  text-transform: uppercase;
+  margin-bottom: 3rem;
+}
+
+@media only screen and (max-width: 500px) {
+  .altera__heading {
+    text-align: center;
+    font-size: 3rem;
+  }
+}
+
+.altera .a-form__line {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 4rem;
+  margin-top: 6rem;
+}
+
+@media only screen and (max-width: 500px) {
+  .altera .a-form__line {
+    flex-direction: column;
+    margin-bottom: 2rem;
+  }
+}
+
+.altera .a-form__line--professor {
+  justify-content: center;
+}
+
+.altera .a-form__line .altera__box {
+  width: 48%;
+  display: flex;
+  align-items: center;
+}
+
+@media only screen and (max-width: 500px) {
+  .altera .a-form__line .altera__box {
+    width: 100%;
+    margin-bottom: 2.4rem;
+  }
+}
+
+.altera .a-form__line .altera__box label {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #fff;
+  background-color: #189FD9;
+  width: 12rem;
+  height: 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  text-transform: uppercase;
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+}
+
+.altera .a-form__line .altera__box select {
+  height: 4rem;
+  width: 100%;
+  padding: 0 1rem;
+  font-size: 2rem;
+  font-weight: bold;
+  color: #fff;
+  border-radius: 4px;
+  border: none;
+  background-color: #79C7FF;
+}
+
+.altera .a-form__inputs {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+@media only screen and (max-width: 500px) {
+  .altera .a-form__inputs {
+    flex-direction: column;
+  }
+}
+
+.altera .a-form__inputs .cadastro__box {
+  width: 48%;
+}
+
+@media only screen and (max-width: 500px) {
+  .altera .a-form__inputs .cadastro__box {
+    width: 100%;
+  }
+}
+
+.altera .a-form button {
+  width: 16rem;
+  margin: 2rem auto 0;
+  border-radius: 4rem;
+  font-size: 2.4rem;
+  font-weight: 700;
+  color: #fff;
+  background-color: #31EBB3;
+  border: none;
+  padding: 1rem;
+  text-transform: uppercase;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.boxpai .boxfilho1 {
-  background-color: red;
-  width: 20rem;
-  height: 40rem;
-}
-
-.boxpai .boxfilho2 {
-  background-color: green;
-  width: 20rem;
-  height: 40rem;
-}
-
-@media only screen and (max-width: 500px) {
-  .boxpai .boxfilho2 {
-    background-color: yellow;
+@media only screen and (max-width: 1200px) {
+  .altera .a-form button {
+    width: 20rem;
+    font-size: 2rem;
   }
+}
+
+.cadastro__container {
+  display: flex;
+  justify-content: space-between;
+  width: 60%;
+  margin-top: 6rem;
+  margin-bottom: 6rem;
+}
+
+@media only screen and (max-width: 1440px) {
+  .cadastro__container {
+    width: 70%;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .cadastro__container {
+    width: 80%;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+.cadastro__heading {
+  font-size: 3rem;
+  font-weight: 700;
+  color: #187CD9;
+  line-height: 4.2rem;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+@media only screen and (max-width: 1200px) {
+  .cadastro__heading {
+    font-size: 2rem;
+    line-height: 3.8rem;
+  }
+}
+
+.cadastro__left {
+  margin-right: 4rem;
+}
+
+@media only screen and (max-width: 1200px) {
+  .cadastro__left {
+    margin-right: unset;
+  }
+}
+
+.cadastro__right {
+  max-width: 45rem;
+  background-color: #fff;
+  padding: 5rem 4rem;
+  border-radius: 2rem;
+}
+
+@media only screen and (max-width: 1200px) {
+  .cadastro__right {
+    padding: 3rem 3rem;
+  }
+}
+
+.cadastro__box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+
+.cadastro__box label {
+  font-size: 2.4rem;
+  font-weight: 600;
+  color: #000;
+  line-height: 4rem;
+  margin-bottom: 1.2rem;
+}
+
+@media only screen and (max-width: 1200px) {
+  .cadastro__box label {
+    font-size: 2rem;
+    line-height: 3rem;
+    margin-bottom: 1rem;
+  }
+}
+
+.cadastro__box input, .cadastro__box select {
+  width: 100%;
+  height: 4rem;
+  padding: 0 1rem;
+  font-size: 2rem;
+  color: #000;
+  border-radius: 4px;
+  border: 1px solid #41464b;
+}
+
+.cadastro form {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 2rem;
+}
+
+.cadastro form button {
+  width: 24rem;
+  margin: 2rem auto 0;
+  border-radius: 4rem;
+  font-size: 2.4rem;
+  font-weight: 700;
+  color: #fff;
+  background-color: #31EBB3;
+  border: none;
+  padding: 1rem;
+  text-transform: uppercase;
+}
+
+@media only screen and (max-width: 1200px) {
+  .cadastro form button {
+    width: 20rem;
+    font-size: 2rem;
+  }
+}
+
+.cadastro__image {
+  margin-top: 2.4rem;
+  max-width: 50rem;
+}
+
+@media only screen and (max-width: 1200px) {
+  .cadastro__image {
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1.4rem;
+  }
+}
+
+.cadastro__image img {
+  object-fit: cover;
+}
+
+@media only screen and (max-width: 1200px) {
+  .cadastro__image img {
+    height: 40rem;
+  }
+}
+
+.cadastro .cadastro-line {
+  display: flex;
+  align-items: center;
+}
+
+@media only screen and (max-width: 1200px) {
+  .cadastro .cadastro-line {
+    justify-content: space-between;
+  }
+}
+
+.cadastro__back {
+  margin-top: .8rem;
+  width: 6rem;
+  height: 6rem;
+}
+
+@media only screen and (max-width: 1200px) {
+  .cadastro__back {
+    width: 5rem;
+    height: 5rem;
+  }
+}
+
+.cadastro__cadastrar {
+  font-size: 2.6rem;
+  font-weight: bold;
+  color: #fff;
+  background-color: #187CD9;
+  border: none;
+  padding: .5rem 1rem;
+  margin: 0;
+  text-decoration: none;
+}
+
+@media only screen and (max-width: 1200px) {
+  .cadastro__cadastrar {
+    font-size: 2rem;
+    padding: .5rem 1rem;
+  }
+}
+
+.cadastro__cadastrar:last-child {
+  background-color: #79C7FF;
+}
+
+.cadastro__altera {
+  margin-left: 4rem;
+  display: flex;
+  align-items: center;
 }
 
 .bg-main-image {
