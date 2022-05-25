@@ -1,0 +1,36 @@
+.background-boletim{
+    background-color: #16B8FD!important;
+}
+  
+.background-notas{
+    background-color: #16E1FD!important;
+}
+
+.background-media{
+    background-color: #32A7FC!important;
+}
+
+.background-faltas{
+    background-color: #79C7FF!important;
+}
+
+.height-main {
+    height: 100%!important;
+}
+
+@media only screen and (max-width: 500px) {
+    .height-main {
+        height: unset;
+    } 
+}
+
+/*  Materias   */
+
+.background-border{
+    border-radius: 10%;
+  }
+  
+  .background-button {
+    border-color: #79C7FF!important;
+    background-color: #79C7FF!important;
+  }
