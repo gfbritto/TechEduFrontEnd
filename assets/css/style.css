@@ -1092,6 +1092,22 @@ a {
   background-color: #79C7FF !important;
 }
 
+.col-10 {
+  border-radius: 2rem;
+}
+
+.col-10 button {
+  background-color: #189fd9;
+  color: #fff;
+  max-width: 50rem;
+}
+
+@media only screen and (max-width: 800px) {
+  .col-10 button {
+    width: 80%;
+  }
+}
+
 .default-button {
   background-color: #189fd9;
   color: #fff;

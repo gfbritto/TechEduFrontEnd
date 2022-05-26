@@ -28,9 +28,21 @@
 
 .background-border{
     border-radius: 10%;
-  }
-  
-  .background-button {
+}
+
+.background-button {
     border-color: #79C7FF!important;
     background-color: #79C7FF!important;
-  }
+}
+
+.col-10{
+    border-radius: 2rem;
+    button{
+        background-color: #189fd9;
+        color: #fff;
+        max-width: 50rem;
+        @include max(800){
+            width: 80%;
+        }
+    }
+}
